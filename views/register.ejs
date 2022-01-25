@@ -1,0 +1,26 @@
+<%- include("partials/header") -%>
+
+<div class="w3-container w3-cell row">
+
+  <div class="w3-cell w3-mobile">
+    <h3>register</h3>
+    <div>Already have an account up? <a href="/login">login</a></div>
+  </div>
+  <hr>
+  <div class="w3-cell w3-mobile">
+    <form class="" action="/register" method="post">
+      <div class="">
+        <input type="text" name="username" placeholder="Enter a username.">
+      </div>
+      <div class="">
+        <input type="password" name="password" placeholder="Enter a password.">
+      </div>
+      <div class="">
+        <button type="submit" name="button">register</button>
+      </div>
+    </form>
+  </div>
+
+</div>
+
+<%- include("partials/footer") -%>
